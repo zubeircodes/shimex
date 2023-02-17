@@ -1,7 +1,4 @@
 
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'SHIMEX', href: '#' },
@@ -11,7 +8,6 @@ const navigation = [
 
 
 export default function Landing() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <>
