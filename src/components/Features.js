@@ -22,7 +22,7 @@ const features = [
   {
     name: 'Continuous Support',
     description:
-      'Our team of experts will be there every step of the way to ensure that everything goes smoothly, so you don\'t have to worry about anything!',
+      'Our team of experts will be there every step of the way to ensure that everything goes smoothly, so you won\'t have to worry about anything!',
     icon: ArrowPathIcon,
   },
 ]
@@ -32,13 +32,12 @@ export default function Features() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</h2>
+          {/* <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Build faster</h2> */}
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+          Equip your project with the right tools to get the job done
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            Our mission is to provide high quality products with excellent service at remarkable prices.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -56,11 +55,7 @@ export default function Features() {
             ))}
           </dl>
         </div>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
-                              <a href="#" className="animate-bounce text-base font-semibold leading-7 text-gray-900">
-                                  Contact Us <span aria-hidden="true">→</span>
-                              </a>
-                          </div>
+    
       </div>
     </div>
   )

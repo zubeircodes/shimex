@@ -15,7 +15,7 @@ export default function Landing() {
 
   return (
     <>
-    <div className="isolate bg-black">
+    <div className="isolate bg-black bg-gradient-to-b from-black to-white ">
           <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
               <svg
                   className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -60,16 +60,16 @@ export default function Landing() {
                   <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
 
                       <div className="text-center">
-                          <h1 className="text-4xl tracking-tight text-gray-100 sm:text-6xl font-thin">
+                          <h1 className="text-4xl tracking-tight text-black sm:text-6xl font-thin">
                               SHIMEX
                           </h1>
-                          <h3 className="text-gray-400 font-extralight">Hardware And Tools</h3>
-                          <p className="mt-9 text-lg leading-8 text-gray-300 ">
-                              Equip your project with the right tools to get the job done.
+                          <h3 className="text-black font-extralight">Hardware And Tools</h3>
+                          <p className="mt-9 text-lg leading-8 text-gray-900 ">
+                              The leading providers in construction hardware and resources.
                           </p>
                           <div className="mt-10 flex items-center justify-center gap-x-6">
-                              <a href="#" className="animate-bounce text-base font-semibold leading-7 text-gray-100">
-                                  Learn more <span aria-hidden="true">→</span>
+                              <a href="#" className="animate-bounce text-base font-semibold leading-7 text-gray-900">
+                                  Learn more <span aria-hidden="true">↓</span>
                               </a>
                           </div>
                       </div>
