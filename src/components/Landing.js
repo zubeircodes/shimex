@@ -67,10 +67,10 @@ export default function Landing() {
                           <p className="mt-9 text-lg leading-8 text-gray-900 ">
                               The leading providers in construction hardware and resources.
                           </p>
-                          <div className="mt-10 flex items-center justify-center gap-x-6">
-                              <a href="#" className="animate-bounce text-base font-semibold leading-7 text-gray-900">
+                          <div className="mt-10 flex items-center justify-center gap-x-6 animate-bounce font-semibold">
+                              {/* <a href="#" className="animate-bounce text-base font-semibold leading-7 text-gray-900"> */}
                                   Learn more <span aria-hidden="true">↓</span>
-                              </a>
+                              {/* </a> */}
                           </div>
                       </div>
                   </div>
